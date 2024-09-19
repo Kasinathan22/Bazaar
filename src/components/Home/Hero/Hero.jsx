@@ -13,7 +13,7 @@ const images = [
   { src: p1.src, width: '100%', height: 'auto' },
   { src: p4.src, width: '100%', height: 'auto' },
   { src: p3.src, width: '100%', height: 'auto' },
-  { src: p3.src, width: '100%', height: 'auto' }, // Custom width for p2
+  { src: p3.src, width: '100%', height: 'auto' }, 
 ];
 
 const Hero = () => {
@@ -71,7 +71,8 @@ const Hero = () => {
       <div className='pt-24 md:lg:pt-36 '>
         <div className='h-12 w-full bg-gre flex justify-center items-center'>
           <h1 className='text-black font-bold text-sm md:text-xl lg:text-xl text-center'>
-            India's Largest Refurbished Mobile Phone Store
+          India&apos;s Largest Refurbished Mobile Phone Store
+
           </h1>
         </div>
       </div>
